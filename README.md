@@ -14,7 +14,7 @@
 
 ## Ver ejemplo en vivo
 
-* [LONLACESITHPAGES] (ENLACEGITHUBPAGES)
+* [https://github.com/OscarACortez/CRUD-JavaScript.git](https://github.com/OscarACortez/CRUD-JavaScript.git)
 
 
 ## Instalación 
