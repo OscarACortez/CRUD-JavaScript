@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crud en javascript</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: grey;">
+    <table>
+        <tr>
+            <td>
+                <!--Formulario HTML para el CRUD de operaciones-->
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="nombreC">Nombre</label>
+                        <input type="text" name="nombreC" id="nombreC" >
+                    </div>
+                    <div>
+                        <label for="codigoE">Codigo</label>
+                        <input type="text" name="codigoE" id="codigoE" >
+                    </div>
+                    <div>
+                        <label for="salario">Salario</label>
+                        <input type="text" name="salario" id="salario">
+                    </div>
+                    <div>
+                        <label for="ciudad">Departamento</label>
+                        <input type="text" name="departamento" id="departamento">
+                    </div>
+                    <div class="form_action--button">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpiar">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Codigo</th>
+                            <th>Salario</th>
+                            <th>Departamento</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
